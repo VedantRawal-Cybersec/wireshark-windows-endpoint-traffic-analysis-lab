@@ -20,7 +20,7 @@ The lab focuses on:
 
 This lab analyzes only traffic visible from the analyst's own Windows endpoint. It does not attempt to intercept, decrypt, or inspect third-party user traffic.
 
-Sensitive values such as full device identifiers, MAC addresses, and unnecessary raw packet details have been redacted from screenshots before publishing.
+Sensitive values such as full device identifiers, MAC addresses, and unnecessary raw packet details were not published directly. The repository documents protocol behavior and analysis methodology instead of exposing raw environment-specific data.
 
 ## Tools Used
 
@@ -35,12 +35,12 @@ Sensitive values such as full device identifiers, MAC addresses, and unnecessary
 
 | Evidence | What it Shows |
 |---|---|
-| [`screenshots/dns-youtube-query.png`](screenshots/dns-youtube-query.png) | DNS query and response pattern for a visited domain |
-| [`screenshots/dns-whatsapp-query.png`](screenshots/dns-whatsapp-query.png) | DNS A/AAAA query behavior |
-| [`screenshots/ssdp-msearch-local-discovery.png`](screenshots/ssdp-msearch-local-discovery.png) | SSDP M-SEARCH local discovery traffic |
-| [`screenshots/encrypted-traffic-port-443.png`](screenshots/encrypted-traffic-port-443.png) | Encrypted web traffic metadata over port 443 |
-| [`screenshots/local-discovery-combined.png`](screenshots/local-discovery-combined.png) | Combined local discovery and name resolution protocols |
-| [`screenshots/router-ssdp-response.png`](screenshots/router-ssdp-response.png) | Router/device response to local discovery traffic |
+| [`evidence/dns_youtube_query.md`](evidence/dns_youtube_query.md) | DNS query and response pattern for a visited domain |
+| [`evidence/dns_whatsapp_query.md`](evidence/dns_whatsapp_query.md) | DNS A/AAAA query behavior |
+| [`evidence/ssdp_local_discovery.md`](evidence/ssdp_local_discovery.md) | SSDP M-SEARCH local discovery traffic |
+| [`evidence/encrypted_traffic_port_443.md`](evidence/encrypted_traffic_port_443.md) | Encrypted web traffic metadata over port 443 |
+| [`evidence/local_discovery_combined.md`](evidence/local_discovery_combined.md) | Combined local discovery and name resolution protocols |
+| [`evidence/router_discovery_response.md`](evidence/router_discovery_response.md) | Router/device response to local discovery traffic |
 
 ## Key Skills Demonstrated
 
